@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+   <!-- Metadata for the page -->
+   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Link to the CSS stylesheet -->
+     <link rel="stylesheet" href="style.css">
+     
+     <style>
+        /* These style tags are only necessary if you’re adding internal CSS */
+    </style>
+       <!-- Title of webpage in the browser -->
+       <title>Chzzzn's Website</title>
+       <meta charset="UTF-8">
+   </head>
+  
+
+   <!-- All visible content on the page -->
+   <body>
+       <!-- Main page heading -->
+       <h1>Homepage</h1>
+     
+       <!-- A paragraph -->
+       <p>(A message)</p>
+     
+       <!-- Image -->
+       
+       <img id="musicalnotessymbols"alt="musical-notes-symbols" src="https://cdn-icons-png.flaticon.com/512/11/11178.png">
+
+       <!-- Adding our JavaScript in the script tag -->
+      <script>
+        // Identifying our image
+        const musicalnotessymbols = document.querySelector("#musicalnotessymbols");
+
+        // Adding reaction when image is clicked
+        musicalnotessymbols.addEventListener("click", () => {
+           alert(`Bach once said "All one has to do is hit the right keys at the right time and the instrument plays itself"`);
+        });
+      </script>
+   </body>
+</html>   

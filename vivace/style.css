@@ -1,0 +1,39 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(54, 80, 68);
+}
+
+/* Additional CSS rules */
+body {
+  background-color: rgb(245, 235, 220);
+}
+
+h1 {
+    
+  font-size: 22px;
+}
+
+.text {
+  color: rgba(55, 88, 76, 0.856);
+}
+
+#musical-notes-symbols {
+    width: 400px;
+    height: auto;
+}
+
+/* Media query to shrink image to 300px when viewport is equal to or smaller than 400px */
+@media only screen and (max-width: 400px) {
+  #musical-notes-symbols {
+    width: 300px;
+  }
+}
+
+/* Media query to set image width to percentage when viewport is equal to or smaller than 300px */
+@media only screen and (max-width: 300px) {
+  #musical-notes-symbols {
+    max-width: 300px;
+    width: 100%;
+  }
+}
